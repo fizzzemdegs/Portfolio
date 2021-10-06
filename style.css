@@ -5,7 +5,7 @@ body {
     padding: 0;
     line-height: 1.5;
     transform-style: preserve-3d; 
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: white;
   }
 #legend{
@@ -39,7 +39,7 @@ body {
     width: 100%;
     margin: 0px;
     
-    background-image: url('img_asset/noelle.jpg');
+    background-image: url("vid_asset/bgvideo.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -77,13 +77,13 @@ body {
 
 
 .parallax {
-    background-image: url("img_asset/noelle.jpg");
+    background-image: url("vid_asset/bgvideoblur.gif");
     min-height: 75vh;
     background-attachment: fixed;
     background-position-x: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: grayscale(1000%);
+    filter: grayscale(100%);
     background-position-y: 0vh;
     
 }
