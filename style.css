@@ -1,0 +1,121 @@
+body {
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    transform-style: preserve-3d; 
+    font-family: 'Lato', sans-serif;
+    color: white;
+  }
+#legend{
+    padding: 0px;
+    
+}
+
+.legend{
+    width: 100px;
+    text-align: center;
+    margin: 0px;
+    color: white;
+    
+}
+
+.legend:hover{
+    color: grey;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+}
+
+.filler{
+    height: 45px;
+    
+}
+
+.segments{
+    height:100vh;
+    width: 100%;
+    margin: 0px;
+    
+    background-image: url('img_asset/noelle.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+}
+
+#about_me_header{
+    font-size: 40px;
+}
+
+#about_me_para{
+    font-size: 20px;
+}
+
+.work_sample_icon{
+    height: 150px;
+    width: 150px;
+    align-items: center;
+}
+
+.work_sample_text{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.work_sample_text:hover{
+    color: grey;
+}
+
+
+.parallax {
+    background-image: url("img_asset/noelle.jpg");
+    min-height: 75vh;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(1000%);
+    background-position-y: 0vh;
+    
+}
+
+#contact{
+    background:#808982;
+    margin: 0px;
+    height: 80px;
+    padding-bottom: 10px;
+}
+.contact_icon{
+    height: 30px;
+    border-radius: 50%;
+    
+}
+
+#facebook:hover{
+    background-color: #4267B2;
+}
+#insta:hover{
+    background-image: linear-gradient(#8a3ab9,#e95950);
+}
+
+#linkedin:hover{
+    background-color: #2867B2;
+}
+
+#mail:hover{
+    background-color: #D44638;
+}
+
+#contact_me{
+    margin: 0px;
+    font-size: 20px;
+}
