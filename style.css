@@ -116,6 +116,12 @@ body {
 }
 
 #contact_me{
+    color: black;
     margin: 0px;
     font-size: 20px;
+}
+
+.experience{
+    color: black;
+
 }
